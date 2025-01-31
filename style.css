@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    /*ESPAÇAMENTO DO LADO DE FORA*/
+    padding: 0;
+    /*ESPAÇAMENTO DO LADO DE DENTRO*/
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+    /* COR DE FUNDO */
+    width: 100vw;
+    /* LARGURA */
+    height: 100vh;
+    /* ALTURA */
+    display: flex;
+    align-items: center;
+    /* ALINHAMENTO DE ITENS VERTICAL */
+    justify-content: center;
+    /* JUSTIFICAR NA HORIZONTAL */
+    font-family: sans-serif;
+}
+
+.insta-logo {
+    margin-bottom: 20px; /* ESPAÇAMENTO EM BAIXO */
+}
+
+.caixa-imagens {
+    position: relative; /* maneira de pocisionar os itens*/
+}
+
+.imagem-celular {
+    width: 350px;
+}
+
+
+.imagem-insta {
+    height: 406px;
+    position: absolute;
+    left: 119px;
+    top: 20px;
+}
+
+
+.caixa-form {
+    width: 300px;
+    border: 1px solid #dbdbdb;
+    padding: 50px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+}
+
+input {
+    height: 36px;
+    margin-top: 5;
+    /* ESPAÇAMENTO EM CIMA */
+    padding-left: 5px;
+    /* ESPAÇAMENTO DENTRO DA CAIXA DE TEXTO A ESQUERDA */
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    /* ARREDONDAMENTO DAS BORDAS */
+    outline: none;
+    /* LINHA DE MARCAÇÃO AO SELECIONAR CAIXA DE TEXTO */
+    color: #262626
+}
+
+button {
+
+    background-color: #0095f6;
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-facebook {
+    color: #385185;
+    font-size: 14px;
+    /* TAMANHO DA FONTE */
+    font-weight: bold;
+    /* ESPESSURA DA FONTE BOLD = NEGRITO */
+    text-align: center;
+    /* ALINHAMENTO SOMENTE PARA TEXTO */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
